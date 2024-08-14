@@ -21,7 +21,7 @@ def organize_files(path: str, target_dir: str = None) -> None:
             
             # If there's no extension, put the file in a folder named "No Extension"
             if not extension_dir:
-                extension_dir = 'No Extension'
+                extension_dir = 'NULL'
             
             # Full path to the directory where files with this extension will be moved
             exten_dir_path = os.path.join(target_dir, extension_dir)
